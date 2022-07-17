@@ -43,11 +43,11 @@ const LeftPane = () => {
     <div className="hidden md:flex flex-col h-screen w-fit lg:w-[20%] bg-white py-10 px-6 space-y-12 sticky top-0 bottom-0 max-w-7xl">
       <div className="flex space-x-2 items-center">
         <div className="bg-[#b8926c] w-[50px] h-[50px] rounded-md p-2">
-          <div className="bg-[#E19133] w-full h-full"></div>
+          <div className="bg-[#E19133] w-full h-full p-1"></div>
         </div>
         <div className="hidden lg:flex flex-col">
           <span className="text-xs font-bold">OrangeWhale</span>
-          <span className="text-xs">Growth & Marketing</span>
+          <span className="text-xs mt-1">Growth & Marketing</span>
         </div>
       </div>
       <div className="flex flex-col space-y-6">
@@ -65,7 +65,7 @@ const LeftPane = () => {
             </li>
           ))}
         </nav>
-        <hr className="w-[70%] mx-auto border-[#cfcfcf]" />
+        <hr className="w-[70%] mx-auto border border-[#cfcfcf]" />
         <div className=" hidden lg:flex justify-between items-center ">
           <span className="text-xs font-bold ">Posts</span>
           <img src={AddIcon} alt="" />
@@ -82,7 +82,7 @@ const LeftPane = () => {
             </li>
           ))}
         </nav>
-        <hr className="w-[70%] mx-auto " />
+        <hr className="w-[70%] mx-auto border border-[#cfcfcf]" />
       </div>
     </div>
   );

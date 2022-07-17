@@ -19,8 +19,8 @@ const StatCard = ({ firstItem }) => {
           25% achieved
         </span>
       </div>
-      <div className="h-[85%] border-l border-l-black ml-auto mr-[15%]" />
-      <div className="h-[80px] w-[80px] relative ">
+      <div className="h-[85%] border border-black/50 ml-auto mr-[15%]" />
+      <div className="h-[80px] w-[80px] relative  ">
         <span
           className={`absolute top-[40%] right-[31%] font-bold text-xs ${
             firstItem ? "text-[#E19133]" : "text-black"

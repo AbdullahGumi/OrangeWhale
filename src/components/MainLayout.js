@@ -30,7 +30,7 @@ const MainLayout = ({ open, handleClose, handleClickOpen }) => {
   ];
   return (
     <>
-      <div className="py-10 px-10  flex-1 flex flex-col justify-between space-y-8 max-w-7xl">
+      <div className="pb-10 px-10  flex-1 flex flex-col justify-between space-y-8 max-w-7xl">
         <div className="flex justify-between items-center">
           <img
             src={menuIcon}
