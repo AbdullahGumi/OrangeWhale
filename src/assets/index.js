@@ -1,0 +1,15 @@
+export { default as photo } from "./photo.jpg";
+export { default as menuIcon } from "./menu.png";
+export { default as chartOrange } from "./chartOrange.png";
+export { default as chartBlack } from "./chartBlack.png";
+export { default as AddIcon } from "./AddIcon.png";
+export { default as BellIcon } from "./BellIcon.png";
+export { default as BookmarkIcon } from "./BookmarkIcon.png";
+export { default as CalendarIcon } from "./CalendarIcon.png";
+export { default as CheckboxIcon } from "./CheckboxIcon.png";
+export { default as ClockIcon } from "./ClockIcon.png";
+export { default as FacebookIcon } from "./FacebookIcon.png";
+export { default as HomeIcon } from "./HomeIcon.png";
+export { default as LogoutIcon } from "./LogoutIcon.png";
+export { default as SettingsIcon } from "./SettingsIcon.png";
+export { default as TwitterIcon } from "./TwitterIcon.png";
